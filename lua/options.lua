@@ -3,6 +3,7 @@ vim.opt.splitbelow = true
 vim.opt.splitright = true
 vim.opt.termguicolors = true
 vim.opt.hlsearch = false
+vim.opt.mouse = ''
 
 -- Disable netrw in favor of nvim-tree
 vim.g.loaded_netrw = 1

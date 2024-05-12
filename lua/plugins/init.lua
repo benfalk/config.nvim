@@ -50,6 +50,9 @@ require('packer').startup(function(use)
     -- Those who do not know history are doomed to repeat it
     use 'tpope/vim-fugitive'
 
+    -- Better Inputs and Selects
+    use 'stevearc/dressing.nvim'
+
     -- adds indent gutters to UI
     load('indent-blankline')
 
