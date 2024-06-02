@@ -4,5 +4,10 @@ return {
     inlay_hints = {
       enabled = false,
     },
+    setup = {
+      rust_analyzer = function()
+        return true
+      end,
+    },
   },
 }
