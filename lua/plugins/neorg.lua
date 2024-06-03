@@ -7,11 +7,12 @@ return {
       rocks = { "magick" },
     },
   },
+  { "folke/tokyonight.nvim", lazy = false, priority = 1000, opts = {} },
   {
     "3rd/image.nvim",
     dependencies = { "luarocks.nvim" },
     opts = {
-      backend = "ueberzug",
+      backend = "kitty",
       integrations = {
         markdown = {
           enabled = true,
