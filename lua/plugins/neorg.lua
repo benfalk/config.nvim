@@ -57,7 +57,13 @@ return {
         ["core.defaults"] = {}, -- Loads default behaviour
         ["core.concealer"] = {}, -- Adds pretty icons to your documents
         ["core.integrations.image"] = {},
+        ["core.presenter"] = {
+          config = {
+            zen_mode = "zen-mode",
+          },
+        },
         ["core.latex.renderer"] = {},
+        ["core.ui.calendar"] = {}, -- Date Picker and General Calendar,
         ["core.dirman"] = { -- Manages Neorg workspaces
           config = {
             workspaces = {
